@@ -51,6 +51,9 @@ class FedCustomStrategy(Strategy):
         self.client_losses_proxy: Dict[str, float] = {}
         self.client_num_examples: Dict[str, int] = {}
 
+        self.history_loss: List[Tuple[int, float]] = []
+        self.history_accuracy: List[Tuple[int, float]] = []
+
     def __repr__(self) -> str:
         return f"FedCustomStrategy(algorithm={self.algorithm}, d={self.power_d})"
 
@@ -208,8 +211,13 @@ class FedCustomStrategy(Strategy):
         examples = [res.num_examples for _, res in results if "accuracy" in res.metrics]
 
         metrics_aggregated = {}
+
         if examples:
-            metrics_aggregated["accuracy"] = sum(accuracies) / sum(examples)
+            accuracy_aggregated = sum(accuracies) / sum(examples)
+            metrics_aggregated["accuracy"] = accuracy_aggregated
+            
+            self.history_accuracy.append((server_round, accuracy_aggregated))
+            self.history_loss.append((server_round, loss_aggregated))
         
         return loss_aggregated, metrics_aggregated
 

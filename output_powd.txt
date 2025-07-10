@@ -1,0 +1,422 @@
+/Users/andrade/workspace/fminist-poc/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Loading project configuration... 
+Success
+/Users/andrade/workspace/fminist-poc/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[92mINFO [0m:      Starting Flower ServerApp, config: num_rounds=50, no round_timeout
+[92mINFO [0m:      
+[92mINFO [0m:      [INIT]
+[92mINFO [0m:      Using initial global parameters provided by strategy
+[92mINFO [0m:      Starting evaluation of initial global parameters
+[92mINFO [0m:      Evaluation returned no results (`None`)
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 1]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[33m(raylet)[0m /Users/andrade/workspace/fminist-poc/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+[33m(raylet)[0m   warnings.warn(
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 2]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 3]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 4]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 5]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 6]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 7]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 8]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 9]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 10]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 11]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 12]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 13]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 14]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 15]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 16]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 17]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 18]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 19]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 20]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 21]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 22]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 23]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 24]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 25]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 26]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 27]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 28]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 29]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 30]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 31]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 32]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 33]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 34]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 35]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 36]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 37]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 38]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 39]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 40]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 41]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 42]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 43]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 44]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 45]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 46]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 47]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 48]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 49]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [ROUND 50]
+[92mINFO [0m:      configure_fit: strategy sampled 10 clients (out of 50)
+[92mINFO [0m:      aggregate_fit: received 10 results and 0 failures
+[92mINFO [0m:      configure_evaluate: strategy sampled 50 clients (out of 50)
+[92mINFO [0m:      aggregate_evaluate: received 50 results and 0 failures
+[92mINFO [0m:      
+[92mINFO [0m:      [SUMMARY]
+[92mINFO [0m:      Run finished 50 round(s) in 140.30s
+[92mINFO [0m:      	History (loss, distributed):
+[92mINFO [0m:      		round 1: 1.7036468604207038
+[92mINFO [0m:      		round 2: 1.0613274477422237
+[92mINFO [0m:      		round 3: 0.8870177887380123
+[92mINFO [0m:      		round 4: 0.7663265607506037
+[92mINFO [0m:      		round 5: 0.7049477227032185
+[92mINFO [0m:      		round 6: 0.6696245379000902
+[92mINFO [0m:      		round 7: 0.6368648133426905
+[92mINFO [0m:      		round 8: 0.6068895272538066
+[92mINFO [0m:      		round 9: 0.5901823503896594
+[92mINFO [0m:      		round 10: 0.559056241735816
+[92mINFO [0m:      		round 11: 0.5508636994287371
+[92mINFO [0m:      		round 12: 0.529538731239736
+[92mINFO [0m:      		round 13: 0.5205621789768338
+[92mINFO [0m:      		round 14: 0.5044535724073649
+[92mINFO [0m:      		round 15: 0.49899997644126415
+[92mINFO [0m:      		round 16: 0.4766139644756913
+[92mINFO [0m:      		round 17: 0.4737044409289956
+[92mINFO [0m:      		round 18: 0.46826366079971193
+[92mINFO [0m:      		round 19: 0.45292612724006176
+[92mINFO [0m:      		round 20: 0.44995573807507755
+[92mINFO [0m:      		round 21: 0.436551716029644
+[92mINFO [0m:      		round 22: 0.4315783864818513
+[92mINFO [0m:      		round 23: 0.422660904712975
+[92mINFO [0m:      		round 24: 0.4148796089738607
+[92mINFO [0m:      		round 25: 0.4136169388704002
+[92mINFO [0m:      		round 26: 0.4083835270628333
+[92mINFO [0m:      		round 27: 0.39609629383310674
+[92mINFO [0m:      		round 28: 0.39675893699750303
+[92mINFO [0m:      		round 29: 0.3904444603435695
+[92mINFO [0m:      		round 30: 0.3864241394586861
+[92mINFO [0m:      		round 31: 0.3861560166999698
+[92mINFO [0m:      		round 32: 0.37687251310795544
+[92mINFO [0m:      		round 33: 0.37512502355501054
+[92mINFO [0m:      		round 34: 0.37134887997061017
+[92mINFO [0m:      		round 35: 0.3714340979605913
+[92mINFO [0m:      		round 36: 0.3695017297193408
+[92mINFO [0m:      		round 37: 0.3622174686193466
+[92mINFO [0m:      		round 38: 0.35967854196205734
+[92mINFO [0m:      		round 39: 0.35562959788367154
+[92mINFO [0m:      		round 40: 0.3680177086219192
+[92mINFO [0m:      		round 41: 0.35585729863494636
+[92mINFO [0m:      		round 42: 0.34756761509925127
+[92mINFO [0m:      		round 43: 0.3464175041206181
+[92mINFO [0m:      		round 44: 0.35694362061098217
+[92mINFO [0m:      		round 45: 0.34111068651080134
+[92mINFO [0m:      		round 46: 0.3445552425365895
+[92mINFO [0m:      		round 47: 0.3474736564233899
+[92mINFO [0m:      		round 48: 0.34224706299602986
+[92mINFO [0m:      		round 49: 0.3438323050178587
+[92mINFO [0m:      		round 50: 0.341505310703069
+[92mINFO [0m:      	History (metrics, distributed, evaluate):
+[92mINFO [0m:      	{'accuracy': [(1, 0.4686666666666667),
+[92mINFO [0m:      	              (2, 0.5949166666666666),
+[92mINFO [0m:      	              (3, 0.669),
+[92mINFO [0m:      	              (4, 0.7129166666666666),
+[92mINFO [0m:      	              (5, 0.7381666666666666),
+[92mINFO [0m:      	              (6, 0.7456666666666667),
+[92mINFO [0m:      	              (7, 0.755),
+[92mINFO [0m:      	              (8, 0.7731666666666667),
+[92mINFO [0m:      	              (9, 0.7735),
+[92mINFO [0m:      	              (10, 0.7884166666666667),
+[92mINFO [0m:      	              (11, 0.7971666666666667),
+[92mINFO [0m:      	              (12, 0.8008333333333333),
+[92mINFO [0m:      	              (13, 0.8074166666666667),
+[92mINFO [0m:      	              (14, 0.8104166666666667),
+[92mINFO [0m:      	              (15, 0.8171666666666667),
+[92mINFO [0m:      	              (16, 0.824),
+[92mINFO [0m:      	              (17, 0.8265),
+[92mINFO [0m:      	              (18, 0.8285833333333333),
+[92mINFO [0m:      	              (19, 0.8359166666666666),
+[92mINFO [0m:      	              (20, 0.8349166666666666),
+[92mINFO [0m:      	              (21, 0.8408333333333333),
+[92mINFO [0m:      	              (22, 0.8446666666666667),
+[92mINFO [0m:      	              (23, 0.84925),
+[92mINFO [0m:      	              (24, 0.8530833333333333),
+[92mINFO [0m:      	              (25, 0.8535833333333334),
+[92mINFO [0m:      	              (26, 0.8545833333333334),
+[92mINFO [0m:      	              (27, 0.8550833333333333),
+[92mINFO [0m:      	              (28, 0.8583333333333333),
+[92mINFO [0m:      	              (29, 0.8583333333333333),
+[92mINFO [0m:      	              (30, 0.8580833333333333),
+[92mINFO [0m:      	              (31, 0.8571666666666666),
+[92mINFO [0m:      	              (32, 0.8665),
+[92mINFO [0m:      	              (33, 0.8664166666666666),
+[92mINFO [0m:      	              (34, 0.865),
+[92mINFO [0m:      	              (35, 0.8675833333333334),
+[92mINFO [0m:      	              (36, 0.8685833333333334),
+[92mINFO [0m:      	              (37, 0.86925),
+[92mINFO [0m:      	              (38, 0.86925),
+[92mINFO [0m:      	              (39, 0.8711666666666666),
+[92mINFO [0m:      	              (40, 0.8665833333333334),
+[92mINFO [0m:      	              (41, 0.8729166666666667),
+[92mINFO [0m:      	              (42, 0.8754166666666666),
+[92mINFO [0m:      	              (43, 0.8770833333333333),
+[92mINFO [0m:      	              (44, 0.872),
+[92mINFO [0m:      	              (45, 0.8795),
+[92mINFO [0m:      	              (46, 0.8789166666666667),
+[92mINFO [0m:      	              (47, 0.8734166666666666),
+[92mINFO [0m:      	              (48, 0.8795),
+[92mINFO [0m:      	              (49, 0.87675),
+[92mINFO [0m:      	              (50, 0.87875)]}
+[92mINFO [0m:      
+[33m(raylet)[0m /Users/andrade/workspace/fminist-poc/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020[32m [repeated 15x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[33m(raylet)[0m   warnings.warn([32m [repeated 15x across cluster][0m

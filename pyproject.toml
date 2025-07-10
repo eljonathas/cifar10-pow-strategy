@@ -29,12 +29,13 @@ serverapp = "app.server_app:app"
 clientapp = "app.client_app:app"
 
 [tool.flwr.app.config]
-num-server-rounds = 3
-fraction-fit = 0.5
+num-server-rounds = 50
+fraction-fit = 0.2
 local-epochs = 1
+power-d = 20
 
 [tool.flwr.federations]
 default = "local-simulation"
 
 [tool.flwr.federations.local-simulation]
-options.num-supernodes = 10
+options.num-supernodes = 50

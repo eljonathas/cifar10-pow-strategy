@@ -8,10 +8,11 @@ from app.fed_avg_custom import FedCustomStrategy
 def server_fn(context: Context):
     fraction_fit = context.run_config["fraction-fit"]
     num_rounds = context.run_config["num-server-rounds"]
+    power_d = context.run_config["power-d"]
 
     strategy = FedCustomStrategy(
-        algorithm="pow-d",
-        power_d=10,
+        algorithm="rpow-d",
+        power_d=power_d,
         fraction_fit=fraction_fit,
         fraction_evaluate=1.0,
         min_fit_clients=2,
