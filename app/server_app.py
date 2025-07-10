@@ -10,7 +10,7 @@ def server_fn(context: Context):
     num_rounds = context.run_config["num-server-rounds"]
 
     strategy = FedCustomStrategy(
-        algorithm="rpow-d",
+        algorithm="pow-d",
         power_d=10,
         fraction_fit=fraction_fit,
         fraction_evaluate=1.0,
